@@ -1,0 +1,30 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "node --watch 1.http.js",
+    "dev:2": "node --watch 2.routing.js",
+    "dev:3": "node --watch 3.express.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  },
+  "description": "",
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
